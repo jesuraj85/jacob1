@@ -1,0 +1,27 @@
+package Test;
+
+import junit.framework.*;
+
+public class TestMyClass3 extends TestCase {
+  private MyClass myClass = null;
+
+  protected void setUp() throws Exception {
+    super.setUp();
+    /**@todo verify the constructors*/
+    myClass = new MyClass();
+  }
+
+  protected void tearDown() throws Exception {
+    myClass = null;
+    super.tearDown();
+  }
+
+  public void testReadFile() {
+    String fileName = null;
+    String expectedReturn = null;
+    String actualReturn = myClass.readFile(fileName);
+    assertEquals("return value", expectedReturn, actualReturn);
+    /**@todo fill in the test code*/
+  }
+
+}

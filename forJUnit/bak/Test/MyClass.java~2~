@@ -1,0 +1,19 @@
+package Test;
+
+mport java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.List;
+import java.util.ArrayList;
+
+public class MyClass {
+  public MyClass() {
+  }
+  public static void main(String[] args) {
+    MyClass myClass1 = new MyClass();
+  }
+
+  public
+
+}
