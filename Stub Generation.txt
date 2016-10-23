@@ -1,0 +1,3 @@
+<taskdef name=”wsejbdeploy” classname=”com.ibm.websphere.ant.tasks.WsEjbDeploy” classpath=”${websphere.home}/plugins/com.ibm.ws.runtime_6.1.0.jar” />
+
+<wsejbdeploy inputJar=”${build.directory}/${ejb}Temp.jar” jvmMaxMemory=”512M” wasHome=”${websphere.home}” workingDirectory=”${build.directory}” outputJar=”${build.directory}/${ejb}.jar” classpathref=”default.class.path” codegen=”true” quiet=”false” failonerror=”true” />
