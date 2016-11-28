@@ -1,0 +1,45 @@
+Tomcat configuration for JACOCO
+
+
+set JAVA_OPTS=-Xrs -XX:MaxPermSize=256m -XX:PermSize=256m -XX:NewRatio=3 -Xms512m -Xmx1024m -XX:+UseParallelGC
+ -javaagent:C:\dev\servers\jacoco-agent.jar=destfile=C:\dev\servers\jacoco.exec,append=true,includes=my.application.*
+ 
+ 
+ -javaagent:C:\jacoco.jar=destfile=C:\jacoco.exec,append=true,includes=*
+ 
+ 
+ 
+ TOmcat Configurtrin in WEbasphere
+ 
+ 
+ ![-javaagent:C:\Shankara\Software\jacoco-0.7.2.201409121644\lib\jacocoagent.jar=destfile=C:\Shankara\Software\jacoco.exec,append=true,includes=com.*][1]
+ 
+ It does. To make the JaCoCo agent work please set the VM option -Xshareclasses:none.
+ 
+ 
+ 
+ Test Method
+ 
+ -javaagent:D:\jacocoagent.jar=destfile=D:\jacoco.exec
+ 
+ 
+ http://stackoverflow.com/questions/6856744/getting-code-coverage-of-my-application-using-jacoco-java-agent-on-tomcat
+ http://www.eclemma.org/jacoco/trunk/doc/agent.html
+ http://stackoverflow.com/questions/16018698/tomcat7-maven-plugin-and-jacoco
+ http://dougonjava.blogspot.in/2013/07/integration-testing-using-maven-tomcat.html
+ http://tomcat.apache.org/maven-plugin-2.2/
+ http://stackoverflow.com/questions/27245029/jacoco-integration-with-websphere
+ http://stackoverflow.com/questions/27245029/jacoco-integration-with-websphere
+ http://www.eclemma.org/jacoco/trunk/doc/agent.html
+ http://stackoverflow.com/questions/31140503/jacoco-websphere
+ http://stackoverflow.com/questions/27245029/jacoco-integration-with-websphere?rq=1
+ http://www.ibm.com/support/knowledgecenter/SSEP7J_10.2.0/com.ibm.swg.ba.cognos.ig_rtm.10.2.0.doc/t_modify_websphere_jvm.html
+ http://www-01.ibm.com/support/docview.wss?uid=swg27023868
+ https://github.com/jacoco/eclemma/issues/94
+ http://sonarqube-archive.15.x6.nabble.com/IT-Testing-code-coverage-with-Jacoco-td5006840.html
+ http://sonarqube-archive.15.x6.nabble.com/IT-Testing-code-coverage-with-Jacoco-td5006840.html
+ http://www.eclemma.org/jacoco/trunk/doc/faq.html
+ https://docs.newrelic.com/docs/agents/java-agent/frameworks/websphere-installation-java
+ https://docs.appdynamics.com/display/PRO42/IBM+WebSphere+and+InfoSphere+Startup+Settings
+ https://docs.appdynamics.com/display/PRO42/IBM+WebSphere+and+InfoSphere+Startup+Settings
+ 
