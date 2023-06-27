@@ -1,0 +1,47 @@
+Continous integration tool
+
+Buddy
+Jenkins
+Cruise control
+TeamCity
+CircleCI
+Codeship
+
+Jenkins
+TeamCity
+Bamboo
+Buddy
+CircleCI
+TravisCI
+
+IDES
+
+Eclipse
+Visual Studio
+PyCharm
+Spyder
+Visual Studio Code
+IDLE
+
+
+
+
+Ansible
+Microsoft Azure
+Jenkins
+XLR
+Chef
+
+
+Git
+SVN
+CVS
+Mercurial
+Perforce
+
+
+GitHub
+GitLab
+Bitbucket
+Crucible
+Azure DevOps
